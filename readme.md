@@ -142,8 +142,8 @@ For training model, execute `Self-Play`, `Trainer` and `Evaluator`.
 Self-Play
 --------
 
-```bash
-python src/chess_zero/run.py self
+```bashzz
+python src/chess_zero/run.py --cmd self
 ```
 
 When executed, Self-Play will start using BestModel.
@@ -157,7 +157,7 @@ Trainer
 -------
 
 ```bash
-python src/chess_zero/run.py opt
+python src/chess_zero/run.py --cmd opt
 ```
 
 When executed, Training will start.
@@ -172,7 +172,7 @@ Evaluator
 ---------
 
 ```bash
-python src/chess_zero/run.py eval
+python src/chess_zero/run.py --cmd eval
 ```
 
 When executed, Evaluation will start.
