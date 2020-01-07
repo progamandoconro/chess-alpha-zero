@@ -70,7 +70,7 @@ To use the new SL process is as simple as running in the beginning instead of th
 Once the model converges enough with SL play-data we just stop the worker "sl" and start the worker "self" so the model will start improving now due to self-play data.
 
 ```bash
-python src/chess_zero/run.py sl
+python src/chess_zero/run.py --cmd sl
 ```
 If you want to use this new SL step you will have to download big PGN files (chess files) and paste them into the `data/play_data` folder ([FICS](http://ficsgames.org/download.html) is a good source of data). You can also use the [SCID program](http://scid.sourceforge.net/) to filter by headers like player ELO, game result and more.
 
