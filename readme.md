@@ -72,7 +72,7 @@ Once the model converges enough with SL play-data we just stop the worker "sl" a
 ```bash
 python src/chess_zero/run.py --cmd sl
 ```
-If you want to use this new SL step you will have to download big PGN files (chess files) and paste them into the `data/play_data` folder ([FICS](http://ficsgames.org/download.html) is a good source of data). You can also use the [SCID program](http://scid.sourceforge.net/) to filter by headers like player ELO, game result and more.
+If you want to use this new SL step you will have to download big PGN files (chess files) and paste them into the `data/play_data` folder (https://database.lichess.org/ is a good source of data). You can also use the [SCID program](http://scid.sourceforge.net/) to filter by headers like player ELO, game result and more.
 
 **To avoid overfitting, I recommend using data sets of at least 3000 games and running at most 3-4 epochs.**
 
